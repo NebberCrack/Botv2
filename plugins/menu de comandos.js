@@ -25,12 +25,6 @@ let menu =`
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ඬ⃟ℹ️ _${usedPrefix}menusimple_
 ┣ ඬ⃟ℹ️️ _${usedPrefix}menuaudios_
-┣ ඬ⃟ℹ️️ _${usedPrefix}menu2_
-┣ ඬ⃟ℹ️️ _${usedPrefix}labiblia_
-┣ ඬ⃟ℹ️ _${usedPrefix}estado_
-┣ ඬ⃟ℹ️ _¿Qué es un Bot?_
-┣ ඬ⃟ℹ️ _Codigos para audios_
-┣ ඬ⃟ℹ️ _Términos y condiciones_
 ┗━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━┓
 ┃ *<TOPS/>*
@@ -42,7 +36,7 @@ let menu =`
 ┣ ඬ⃟🎖️ _${usedPrefix}topotakus_
 ┗━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━┓
-┃ *<JUEGOS/>*
+┃ *<JUEGOS - DINÁMICAS/>*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ඬ⃟🕹 _${usedPrefix}math *modo*_
 ┣ ඬ⃟🎮 _${usedPrefix}ttt *nombre del la sala*_
@@ -97,35 +91,6 @@ let menu =`
 ┣ ඬ⃟📥 _${usedPrefix}igstalk *username*_
 ┣ ඬ⃟📥 _${usedPrefix}animeinfo *nombre del anime*_
 ┣ ඬ⃟📥 _${usedPrefix}twvid *link de video de twitter*_
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
-┃ *<GESTION DE GRUPOS/>* 
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ඬ⃟💎 _${usedPrefix}admins *texto*_ 
-┣ ඬ⃟💎 _${usedPrefix}añadir *numero*_ 
-┣ ඬ⃟💎 _${usedPrefix}sacar @tag_
-┣ ඬ⃟💎 _${usedPrefix}save *@tag + nombre de contacto*_
-┣ ඬ⃟💎 _${usedPrefix}daradmin *@tag*_
-┣ ඬ⃟💎 _${usedPrefix}quitaradmin *@tag*_
-┣ ඬ⃟💎 _${usedPrefix}grupo *abrir / cerrar*_
-┣ ඬ⃟💎 _${usedPrefix}enable welcome_
-┣ ඬ⃟💎 _${usedPrefix}disable welcome_
-┣ ඬ⃟💎 _${usedPrefix}enable antilink_
-┣ ඬ⃟💎 _${usedPrefix}disable antilink_
-┣ ඬ⃟💎 _${usedPrefix}enable antilink2_
-┣ ඬ⃟💎 _${usedPrefix}disable antilink2_
-┣ ඬ⃟💎 _${usedPrefix}enable delete_
-┣ ඬ⃟💎 _${usedPrefix}disable  delete_ 
-┣ ඬ⃟💎 _${usedPrefix}link_
-┣ ඬ⃟💎 _${usedPrefix}notificar *texto*_
-┣ ඬ⃟💎 _${usedPrefix}setname *Nuevo nombre del grupo*_
-┣ ඬ⃟💎 _${usedPrefix}setdesc *Nueva descripción del grupo*_
-┣ ඬ⃟💎 _${usedPrefix}infogrupo_
-┣ ඬ⃟💎 _${usedPrefix}invocar *texto*_
-┣ ඬ⃟💎 _${usedPrefix}del *responder a un mensaje del bot*_
-┣ ඬ⃟💎 _${usedPrefix}fantasmas_
-┣ ඬ⃟💎 _${usedPrefix}banchat_
-┣ ඬ⃟💎 _${usedPrefix}unbanchat_
 ┗━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━┓
 ┃ *<CREADORES/>*
@@ -218,19 +183,6 @@ let menu =`
 ┣ ඬ⃟🎤 _${usedPrefix}vibracion *cantidad*_
 ┗━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━┓
-┃ *<AUDIOS/>* 
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ඬ⃟🔊 _${usedPrefix}menu2_
-┣ ඬ⃟🔊 _${usedPrefix}menuaudios_
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
-┃ *<CHAT ANONIMO/>*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ඬ⃟📳 _${usedPrefix}start_
-┣ ඬ⃟📳 _${usedPrefix}next_
-┣ ඬ⃟📳 _${usedPrefix}leave_
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
 ┃ *<LOGOS PERSONALIZADOS/>*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ඬ⃟📝️ _${usedPrefix}logos_ (lista)
@@ -254,6 +206,35 @@ let menu =`
 ┣ ඬ⃟📝️ _${usedPrefix}logosad *texto1|texto2*_
 ┣ ඬ⃟📝️ _${usedPrefix}logowolf *texto1|texto2*_
 ┣ ඬ⃟📝️ _${usedPrefix}logovintage *texto1|texto2*_
+┗━━━━━━━━━━━━━┛
+┏━━━━━━━━━━━━━┓
+┃ *<GESTION DE GRUPOS/>* 
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┣ ඬ⃟💎 _${usedPrefix}admins *texto*_ 
+┣ ඬ⃟💎 _${usedPrefix}añadir *numero*_ 
+┣ ඬ⃟💎 _${usedPrefix}sacar @tag_
+┣ ඬ⃟💎 _${usedPrefix}save *@tag + nombre de contacto*_
+┣ ඬ⃟💎 _${usedPrefix}daradmin *@tag*_
+┣ ඬ⃟💎 _${usedPrefix}quitaradmin *@tag*_
+┣ ඬ⃟💎 _${usedPrefix}grupo *abrir / cerrar*_
+┣ ඬ⃟💎 _${usedPrefix}enable welcome_
+┣ ඬ⃟💎 _${usedPrefix}disable welcome_
+┣ ඬ⃟💎 _${usedPrefix}enable antilink_
+┣ ඬ⃟💎 _${usedPrefix}disable antilink_
+┣ ඬ⃟💎 _${usedPrefix}enable antilink2_
+┣ ඬ⃟💎 _${usedPrefix}disable antilink2_
+┣ ඬ⃟💎 _${usedPrefix}enable delete_
+┣ ඬ⃟💎 _${usedPrefix}disable  delete_ 
+┣ ඬ⃟💎 _${usedPrefix}link_
+┣ ඬ⃟💎 _${usedPrefix}notificar *texto*_
+┣ ඬ⃟💎 _${usedPrefix}setname *Nuevo nombre del grupo*_
+┣ ඬ⃟💎 _${usedPrefix}setdesc *Nueva descripción del grupo*_
+┣ ඬ⃟💎 _${usedPrefix}infogrupo_
+┣ ඬ⃟💎 _${usedPrefix}invocar *texto*_
+┣ ඬ⃟💎 _${usedPrefix}del *responder a un mensaje del bot*_
+┣ ඬ⃟💎 _${usedPrefix}fantasmas_
+┣ ඬ⃟💎 _${usedPrefix}banchat_
+┣ ඬ⃟💎 _${usedPrefix}unbanchat_
 ┗━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━┓
 ┃ *<PROPIETARO DEL BOT/>*
