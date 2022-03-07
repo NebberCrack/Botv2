@@ -20,23 +20,6 @@ let str = `
 ┏━━━━━━━━━━━━━┓
 ┃ *<MENU SIMPLE/>*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ඬ⃟ℹ️️ _${usedPrefix}sc_
-┣ ඬ⃟ℹ️️ _${usedPrefix}donar_
-┣ ඬ⃟ℹ️️ _${usedPrefix}infobot_
-┣ ඬ⃟ℹ️️ _${usedPrefix}grupos_
-┣ ඬ⃟ℹ️ _${usedPrefix}instalarbot_
-┣ ඬ⃟ℹ️ _${usedPrefix}menusimple_
-┣ ඬ⃟ℹ️️ _${usedPrefix}menuaudios_
-┣ ඬ⃟ℹ️️ _${usedPrefix}menu2_
-┣ ඬ⃟ℹ️️ _${usedPrefix}labiblia_
-┣ ඬ⃟ℹ️ _${usedPrefix}estado_
-┣ ඬ⃟ℹ️ _¿Qué es un Bot?_
-┣ ඬ⃟ℹ️ _Codigos para audios_
-┣ ඬ⃟ℹ️ _Términos y condiciones_
-┣ ඬ⃟📬 _${usedPrefix}bug_
-┣ ඬ⃟📬 _${usedPrefix}report_
-┣ ඬ⃟🤖 _${usedPrefix}join_ 
-┣ ඬ⃟🤖 _${usedPrefix}bots_
 ┣ ඬ⃟🎖️ _${usedPrefix}top10gays_
 ┣ ඬ⃟🎖️ _${usedPrefix}toplind@s_
 ┣ ඬ⃟🎖️ _${usedPrefix}topput@s_
@@ -85,8 +68,6 @@ let str = `
 ┣ ඬ⃟📥 _${usedPrefix}spotify_
 ┣ ඬ⃟📥 _${usedPrefix}acortar_
 ┣ ඬ⃟📥 _${usedPrefix}pinterest_
-┣ ඬ⃟📥 _${usedPrefix}xnxx_
-┣ ඬ⃟📥 _${usedPrefix}xnxxsearch_
 ┣ ඬ⃟📥 _${usedPrefix}ssweb_
 ┣ ඬ⃟📥 _${usedPrefix}igstory_
 ┣ ඬ⃟📥 _${usedPrefix}igstalk_
@@ -181,7 +162,6 @@ let str = `
 ┣ ඬ⃟👾 _${usedPrefix}readqr_
 ┣ ඬ⃟👾 _${usedPrefix}anime_
 ┣ ඬ⃟👾 _${usedPrefix}subirestado_
-┣ ඬ⃟🔞 _${usedPrefix}labiblia_
 ┣ ඬ⃟🎤 _${usedPrefix}bass_
 ┣ ඬ⃟🎤 _${usedPrefix}deep_
 ┣ ඬ⃟🎤 _${usedPrefix}earrape_
