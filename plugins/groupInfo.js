@@ -17,10 +17,7 @@ let handler = async (m, { conn, participants, groupMetadata }) => {
         const groupAdmins = getGroupAdmins(participants)
         let listAdmin = groupAdmins.map((v, i) => `${i + 1}. @${v.split('@')[0]}`).join('\n')
         let text = `*「 INFORMACIÓN DEL GRUPO 」*\n
-
 *Nombre:* ${groupMetadata.subject}
-
-*Descripcion:* 
 ${groupMetadata.desc}
 
 *Total De Participantes:*
