@@ -17,28 +17,14 @@ let handler = async (m, { conn, participants, groupMetadata }) => {
         const groupAdmins = getGroupAdmins(participants)
         let listAdmin = groupAdmins.map((v, i) => `${i + 1}. @${v.split('@')[0]}`).join('\n')
         let text = `*「 INFORMACIÓN DEL GRUPO 」*\n
-*ID De Registro En El Bot:* 
-${groupMetadata.id}
 
-*Nombre:* 
-${groupMetadata.subject}
+*Nombre:* ${groupMetadata.subject}
 
 *Descripcion:* 
 ${groupMetadata.desc}
 
 *Total De Participantes:*
 ${participants.length} Participantes
-
-*Creador Del Grupo:* 
-@${m.chat.split`-`[0]}
-
-*Admins Del Grupo:*
-${listAdmin}
-
-*Configuraciones Del Grupo:*
-${welcome ? '✅' : '❌'} Welcome
-${global.DATABASE.data.chats[m.chat].delete ? '❌' : '✅'} Anti Delete
-${antiLink ? '✅' : '❌'} Anti Link
 `.trim()
         ownernya = [`${m.chat.split`-`[0]}@s.whatsapp.net`]
         let mentionedJid = groupAdmins.concat(ownernya)
