@@ -12,13 +12,13 @@ let handler = async (m, { conn, command, text }) => {
   let { dl_link, thumb, title, filesize, filesizeF} = await (isVideo ? ytv : yta)(vid.url, 'id4')
   //let isLimit = (isPrems || isOwner ? 99 : limit) * 1024 < filesizesLimit
   conn.sendFile(m.chat, thumb, 'thumbnail.jpg', `
-*⏯ ️Reproductor By Shadow Brokers - Bot ⏯️*
+*⏯ ️Play - Romina 🥀 ⏯️*
 
 *${title}*
 *⇄ㅤ     ◁   ㅤ  ❚❚ㅤ     ▷ㅤ     ↻*
 
 *📂Tamaño del archivo:* ${filesizeF}
-*👉🏻Aguarde un momento en lo que envío su audio/video*
+*⌛ Aguarde un momento en lo que envío su audio/video*
 `.trim(), m)
   let _thumb = {}
   try { if (isVideo) _thumb = { thumbnail: await (await fetch(thumb)).buffer() } }
