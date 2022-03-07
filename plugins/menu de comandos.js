@@ -84,8 +84,6 @@ let menu =`
 ┣ ඬ⃟📥 _${usedPrefix}spotify *autor, cancion*_
 ┣ ඬ⃟📥 _${usedPrefix}acortar *link*_
 ┣ ඬ⃟📥 _${usedPrefix}pinterest *texto*_
-┣ ඬ⃟📥 _${usedPrefix}xnxx *link de xnxx*_
-┣ ඬ⃟📥 _${usedPrefix}xnxxsearch *texto*_
 ┣ ඬ⃟📥 _${usedPrefix}ssweb *link*_
 ┣ ඬ⃟📥 _${usedPrefix}igstory *username*_
 ┣ ඬ⃟📥 _${usedPrefix}igstalk *username*_
