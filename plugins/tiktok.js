@@ -6,7 +6,7 @@ let url = video.no_watermark || video.with_watermark || video.no_watermark_raw |
 if (!url) throw '*Fallo al detectar la URL*'
 conn.sendFile(m.chat, url, 'error.mp4', `
    *🔰 Aqui tienes el tiktok*
-_©The Shadow Brokers - Bot_
+_©Romina 🥀 - Bot_
 `.trim(), m)}
 handler.command = /^(tik(tok)?(dl)?)$/i
 module.exports = handler
