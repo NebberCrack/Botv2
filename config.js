@@ -52,7 +52,7 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = '(☞ﾟ∀ﾟ)☞'
+global.packname = '𓊈𒆜ᴺᵉᵇᵇᵉʳᶜʳᵃᶜᵏᵉʳ𒆜𓊉ᴮᴼˢˢ'
 global.author = 'Romina 🥀 - Bot'
 
 
