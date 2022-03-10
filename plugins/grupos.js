@@ -17,6 +17,6 @@ let info = `
 
 *7.- https://chat.whatsapp.com/HylyPaLc49b9DWF67K8pdc*
 `.trim() 
-conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*🔥 THE SHADOW BROKERS - BOT 🔥*', 'status@broadcast')}
+conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*🔥 Romina 🥀 - BOT 🔥*', 'status@broadcast')}
 handler.command = /^(grupos|gruposofc|gruposofc)$/i
 module.exports = handler
