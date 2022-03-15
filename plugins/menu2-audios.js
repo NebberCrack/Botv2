@@ -53,7 +53,7 @@ let str = `
 ° ඬ⃟🔊 _UwU_
 ° ඬ⃟🔊 _:c_
 ° ඬ⃟🔊 _a_
-
+° ඬ⃟🔊 _jajaja_
 *_Romina 🥀 - Bot_*`.trim()
 let mentionedJid = [who]
 conn.sendFile(m.chat, pp, 'lp.jpg', str, m, false, { contextInfo: { mentionedJid }})
