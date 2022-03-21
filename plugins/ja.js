@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.command = /^(pedo)$/i
+handler.command = /^(jajaja|JAJA|Jaja|JAJAJA|Jajaja)$/i
 
 module.exports = handler
