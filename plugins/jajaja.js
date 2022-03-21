@@ -4,10 +4,11 @@ let path = require('path')
 let handler = async (m, { conn }) => {
 let vn = './media/jajaja.mp3'
 conn.sendFile(m.chat, vn, 'jajaja.mp3', null, m, true, {
-type: 'audioMessage', 
-ptt: true 
+type: 'audioMessage', // paksa tanpa convert di ffmpeg
+ptt: true // true diatas ga work, sebab dipaksa tanpa convert ;v
 })
 }
-handler.command = /^(jaja)$/i
+handler.customPrefix = /ja|jaja|jajaja/
+handler.command = /^(JA|JAJA|JAJAJA?$)/
 
 module.exports = handler
