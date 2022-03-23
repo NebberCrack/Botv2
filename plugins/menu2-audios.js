@@ -53,6 +53,15 @@ let str = `
 ° ඬ⃟🔊 _UwU_
 ° ඬ⃟🔊 _:c_
 ° ඬ⃟🔊 _a_
+° ඬ⃟🔊 _Andan cogiendo_
+° ඬ⃟🔊 _Te quiero_
+° ඬ⃟🔊 _No me carga_
+° ඬ⃟🔊 _Mucho texto_
+° ඬ⃟🔊 _No_
+° ඬ⃟🔊 _Manda Pack_
+° ඬ⃟🔊 _Guapa_
+° ඬ⃟🔊 _Jaja_
+° ඬ⃟🔊 _Bienvenido_
 
 *_Romina 🥀 - Bot_*`.trim()
 let mentionedJid = [who]
