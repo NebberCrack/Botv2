@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.command = /^(hola soy nuevo|ola soy nuevo|Ola soy nuevo|Hola🤖|ola🤖)$/i
-
+handler.customPrefix = /Hola soy nuevo|hola soy nuevo/
+handler.command = new RegExp
 module.exports = handler
