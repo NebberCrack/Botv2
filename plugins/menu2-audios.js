@@ -57,7 +57,7 @@ let str = `
 ° ඬ⃟🔊 _Te quiero_
 ° ඬ⃟🔊 _No me carga_
 ° ඬ⃟🔊 _Mucho texto_
-° ඬ⃟🔊 _No_
+° ඬ⃟🔊 _No chupala_
 ° ඬ⃟🔊 _Manda Pack_
 ° ඬ⃟🔊 _Guapa_
 ° ඬ⃟🔊 _Jaja_
