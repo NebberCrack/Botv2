@@ -62,6 +62,7 @@ let str = `
 ° ඬ⃟🔊 _Guapa_
 ° ඬ⃟🔊 _Jaja_
 ° ඬ⃟🔊 _Bienvenido_
+° ඬ⃟🔊 _Contexto_
 
 *_Romina 🥀 - Bot_*`.trim()
 let mentionedJid = [who]
