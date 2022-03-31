@@ -30,7 +30,7 @@ ${participants.length} Participantes
 }
 handler.help = ['infogrup']
 handler.tags = ['group']
-handler.command = /^(infogroup|gc|infogrupo)$/i
+handler.command = /^(infogroup|reglas|infogrupo)$/i
 
 handler.group = true
 
