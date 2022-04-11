@@ -32,9 +32,13 @@ let menu =`
 ┏━━━━━━━━━━━━━┓
 ┃ *<JUEGOS - DINÁMICAS/>*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ඬ⃟🕹 _${usedPrefix}math *modo*_
-┣ ඬ⃟🎮 _${usedPrefix}ttt *nombre del la sala*_
-┣ ඬ⃟🕹 _${usedPrefix}delttt *nombre del la sala*_
+┣ ඬ⃟🕹 _${usedPrefix}reto_
+┣ ඬ⃟🕹 _${usedPrefix}verdad_
+┣ ඬ⃟🕹 _${usedPrefix}ppt *piedra / papel / tijera*_
+┣ ඬ⃟🕹 _${usedPrefix}amigorandom_
+┣ ඬ⃟🎮 _${usedPrefix}love *@tag / nombre*_
+┣ ඬ⃟🎮 _${usedPrefix}formarpareja_
+┣ ඬ⃟🕹 _${usedPrefix}formartrio_
 ┣ ඬ⃟🎮 _${usedPrefix}2gay *@tag*_
 ┣ ඬ⃟🕹 _${usedPrefix}gay *@tag / nombre*_
 ┣ ඬ⃟🎮 _${usedPrefix}lesbi *@tag / nombre*_
@@ -45,16 +49,11 @@ let menu =`
 ┣ ඬ⃟🕹 _${usedPrefix}rata *@tag / nombre*_
 ┣ ඬ⃟🎮 _${usedPrefix}manco *@tag / nombre*_
 ┣ ඬ⃟🕹 _${usedPrefix}manca *@tag / nombre*_
-┣ ඬ⃟🎮 _${usedPrefix}formarpareja_
-┣ ඬ⃟🕹 _${usedPrefix}dado_
-┣ ඬ⃟🎮 _${usedPrefix}simsimi *texto*_
-┣ ඬ⃟🕹 _${usedPrefix}formartrio_
-┣ ඬ⃟🎮 _${usedPrefix}love *@tag / nombre*_
-┣ ඬ⃟🕹 _${usedPrefix}amigorandom_
-┣ ඬ⃟🎮 _${usedPrefix}slot *cantidad*_
-┣ ඬ⃟🕹 _${usedPrefix}ppt *piedra / papel / tijera*_
 ┣ ඬ⃟🎮 _${usedPrefix}prostituta *@tag / nombre*_
 ┣ ඬ⃟🕹 _${usedPrefix}prostituto *@tag / nombre*_
+┣ ඬ⃟🕹 _${usedPrefix}dado_
+┣ ඬ⃟🎮 _${usedPrefix}simsimi *texto*_
+┣ ඬ⃟🎮 _${usedPrefix}slot *cantidad*_
 ┗━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━┓
 ┃ *<DESCARGAS/>*
@@ -123,8 +122,6 @@ let menu =`
 ┣ ඬ⃟👾 _${usedPrefix}pikachu_
 ┣ ඬ⃟👾 _${usedPrefix}waifu_
 ┣ ඬ⃟👾 _${usedPrefix}blackpink_
-┣ ඬ⃟👾 _${usedPrefix}reto_
-┣ ඬ⃟👾 _${usedPrefix}verdad_
 ┣ ඬ⃟👾 _${usedPrefix}imagenrandom_
 ┣ ඬ⃟👾 _${usedPrefix}neko_
 ┣ ඬ⃟👾 _${usedPrefix}lolivid_
@@ -140,7 +137,6 @@ let menu =`
 ┣ ඬ⃟👾 _${usedPrefix}slap_
 ┣ ඬ⃟👾️ _${usedPrefix}pat_
 ┣ ඬ⃟👾 _${usedPrefix}perfil_
-┣ ඬ⃟👾 _${usedPrefix}scan_
 ┣ ඬ⃟👾 _${usedPrefix}kpop_
 ┣ ඬ⃟👾 _${usedPrefix}qr *texto*_
 ┣ ඬ⃟👾 _${usedPrefix}afk *motivo*_
@@ -217,8 +213,8 @@ let menu =`
 ┣ ඬ⃟💎 _${usedPrefix}disable antilink2_
 ┣ ඬ⃟💎 _${usedPrefix}enable delete_
 ┣ ඬ⃟💎 _${usedPrefix}disable  delete_ 
-┣ ඬ⃟💎 _${usedPrefix}link_
 ┣ ඬ⃟💎 _${usedPrefix}notificar *texto*_
+┣ ඬ⃟💎 _${usedPrefix}hidetag *texto*_
 ┣ ඬ⃟💎 _${usedPrefix}setname *Nuevo nombre del grupo*_
 ┣ ඬ⃟💎 _${usedPrefix}setdesc *Nueva descripción del grupo*_
 ┣ ඬ⃟💎 _${usedPrefix}infogrupo_
