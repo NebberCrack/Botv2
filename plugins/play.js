@@ -12,7 +12,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
   let yt = false
   let yt2 = false
   let usedServer = servers[0]
-  m.reply('*⏳Procesando⏳*\n\n*[❗] Si no obtiene ningun resultado o le sale algun error intente con otro nombre*')
+
   for (let i in servers) {
     let server = servers[i]
     try {
