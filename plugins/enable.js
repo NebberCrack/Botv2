@@ -113,7 +113,7 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       break
     case 'restrict':
       isAll = true
-      if (!isROwner) {
+      if (!(isAdmin || isOwner)) {
         global.dfail('rowner', m, conn)
         throw false
       }
