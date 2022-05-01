@@ -114,7 +114,7 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
     case 'restrict':
       isAll = true
       if (isAdmin) {
-        global.dfail('rowner', m, conn)
+        global.dfail('admin', m, conn)
         throw false
       }
       global.opts['restrict'] = isEnable
